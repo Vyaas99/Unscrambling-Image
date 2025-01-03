@@ -1,28 +1,30 @@
 # Unscrambling Image Project
 
 ## Overview
-This project demonstrates expertise in **computer vision**, **image processing**, and **algorithmic problem-solving** by tackling the challenging task of unscrambling scrambled images. The work involves reconstructing a distorted image to its original state using advanced computational techniques.
+This project focuses on solving the challenging problem of unscrambling scrambled images. It involves generating datasets of scrambled images, designing deep learning models to reconstruct their original order, and evaluating the performance of these models.
 
-## Key Highlights
-- **Advanced Computer Vision Techniques**:
-  - Utilized libraries like `numpy`, `matplotlib`, and `opencv-python` to process and analyze image data.
-  - Applied innovative strategies to identify patterns and reverse scrambling operations.
-  
-- **Algorithm Development**:
-  - Designed efficient algorithms to reconstruct scrambled images with high accuracy.
-  - Incorporated techniques to handle noise and distortions in the scrambled data.
+## Key Features
+1. **Image Scrambling and Dataset Generation**:
+   - A 4x4 block scramble method is used to create datasets of scrambled images and their labels.
+   - Generated a dataset of 5,000 scrambled images with corresponding labels for training and evaluation.
 
-- **Visualization and Debugging**:
-  - Provided visual insights into the unscrambling process, enabling clear understanding and debugging of the algorithms.
-  - Demonstrated the ability to translate complex data transformations into visual outputs.
+2. **Deep Learning Approach**:
+   - Built a convolutional neural network (CNN) to predict the correct order of image blocks.
+   - Explored different strategies for representing outputs, including direct pixel rearrangement and label prediction.
+
+3. **Visualization and Debugging**:
+   - Provided visual representations of the scrambling and unscrambling process for better understanding and debugging.
+
+4. **Programming and Libraries**:
+   - Utilized Python libraries such as NumPy, PyTorch, and Matplotlib for image processing, dataset creation, and model training.
 
 ## Skills Demonstrated
-- **Problem-Solving**: Tackled a non-trivial challenge requiring a deep understanding of image data and manipulation techniques.
-- **Mathematical Foundations**: Leveraged mathematical concepts to develop algorithms for analyzing pixel arrangements and reconstructing images.
-- **Programming Expertise**: Showcased proficiency in Python and popular image-processing libraries (`numpy`, `matplotlib`, `opencv-python`).
-- **Data Analysis**: Applied analytical skills to interpret scrambled patterns and develop systematic solutions.
+- **Computer Vision**: Applied techniques to preprocess images and create shuffled datasets.
+- **Deep Learning**: Designed and trained CNN models for image reconstruction.
+- **Algorithmic Thinking**: Developed methods to shuffle and unscramble image blocks efficiently.
+- **Data Handling**: Managed large datasets of images and labels for supervised learning tasks.
 
-## Impact and Real-World Applications
-- **Image Restoration**: Techniques used here can be extended to real-world applications like restoring corrupted images, solving puzzles, or reversing encryption.
-- **Education and Research**: Provides a strong foundation for understanding key principles in computer vision and algorithm development.
-- **Innovation in Image Processing**: Highlights the ability to think critically and innovate within the field of image analysis.
+## Potential Applications
+- **Image Restoration**: Techniques can be extended to reconstruct corrupted or incomplete images.
+- **Puzzle Solving**: Demonstrates potential for solving visual puzzles and similar problems.
+- **Education and Research**: Serves as a practical example for learning about vision models and neural networks.
